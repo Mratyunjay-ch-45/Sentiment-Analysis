@@ -10,7 +10,7 @@ This repository contains a comprehensive implementation of **sentiment analysis*
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-
+- [Usage](#usage)
 
 ---
 
@@ -39,7 +39,7 @@ The project uses the [IMDb dataset](https://huggingface.co/datasets/imdb) availa
 
 ## Requirements
 
-Python 3.9+  
+- Python 3.9+  
 
 Key packages:
 
@@ -56,9 +56,30 @@ Key packages:
 - `joblib`  
 - `lime` (optional, for interpretability)
 
-Install dependencies via:
+---
+
+## Installation
+
+1. **Clone the repository:**
 
 ```bash
+git clone https://github.com/yourusername/imdb-sentiment-analysis.git
+cd imdb-sentiment-analysis
+
+
+
+2. **Create virtual env:**
+
+```bash
+python -m venv venv
+
+3. **Activate the virtual environment:**
+.\venv\Scripts\activate
+
+4. **Install dependencies:**
 pip install -r requirements.txt
 
-run the file using the command "python sentiment_analysis.py" from the code editor directly.
+
+# Usage
+
+python sentiment_analysis.py
